@@ -3,3 +3,4 @@
 #except theses files
 !.gitignore
 !select_random.py
+!README.md

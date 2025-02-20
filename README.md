@@ -14,7 +14,7 @@
     - label_day: label of the daily event (events lasting several
     days have a different label_day for each day)
     - otmedia_doc_id: id of the press article linked to the event,
-    allowing to join this file with linked_articles.tsv. **There is 4 <empty> in this column.**
+    allowing to join this file with linked_articles.tsv. **There is 4 "empty" in this column.**
 
 Il y a eu deux tirage aléatoire : le premier pour 6 personnes (300 articles chacun.e) et le second pour 1 personne (600 articles).
 Il y a 100 article en commun pour tous.tes les annotateur.ices, destiné à calculer un score inter-annoteur.

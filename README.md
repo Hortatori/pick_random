@@ -2,7 +2,7 @@
     - text
     - title
     - id reference to ot_media
-    - label is event_id (**human!?**) or could be extended = if one article with label gold is in a cluster, giving this label to the cluster. (description a plusieurs docs pour un label)
+    - label is event_id extended = if one article with label gold is in a cluster, giving this label to the cluster. (description a plusieurs docs pour un label)
     - pred is **automatic**
     event2018_news.csv contient des titres et textes d'articles, sur une periode qui recouvre celle du dataset de tweets.
     Des articles automatiquement associés à des événements, dont les clusters ont été reliés à un label selon si un article du corpus gold se trouvait dedans.

@@ -5,7 +5,7 @@ import csv
 * open event2018_news and descirption.tsv
 * on event2018_news.tsv
 * filter out the press papers previously picked as events
-(to note : some papers has no label, they were in cluster which didnt contain a labelled paper)
+(to note : some papers has no label, they were in a cluster which didnt contain a labelled paper)
 - event2018_news.tsv contains paper from 07.2018 to 08.2018, augmented with text.
 * each label in descrption can have several documents => how to create a reference to compare? => just one random in description) 
 """
@@ -117,6 +117,7 @@ def read_and_concat(file_names) :
         global_concat = pd.concat([global_concat, temp], axis = 0)
     return global_concat
 
+# pour le second tirage, celui de francesca
 def main_second_sample() :
     df_description = load_description("description.tsv")
     df_news = load_news("event2018_news.tsv")
